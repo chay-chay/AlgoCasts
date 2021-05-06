@@ -7,9 +7,10 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-    const arr = str.split('');
-    let word = arr.reverse().join('');
-    return word
+    // const arr = str.split('');
+    // let word = arr.reverse().join('');
+    // return word
+    return str.split('').reverse().join('');
 }
 
 module.exports = reverse;
