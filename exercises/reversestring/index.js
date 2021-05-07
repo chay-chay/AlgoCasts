@@ -7,10 +7,25 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-    // const arr = str.split('');
-    // let word = arr.reverse().join('');
-    // return word
-    return str.split('').reverse().join('');
+  // create an empty string called "reversed"
+  // for each character in the provided string
+  // take the character and add it to the start of 'reversed'
+  // return the variable 'reversed'
+  let reversed = "";
+  for (let character of str) {
+    reversed = character + reversed;
+  }
+  return reversed;
+  // for (var i = 0; i < str.length; i++) {
+  // }
 }
 
 module.exports = reverse;
+
+// solution 1
+// function reverse(str) {
+//     // const arr = str.split('');
+//     // let word = arr.reverse().join('');
+//     // return word
+//     return str.split('').reverse().join('');
+// }
