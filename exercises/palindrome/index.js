@@ -24,3 +24,18 @@ module.exports = palindrome;
   
 //     return str === reversed;
 //   }
+
+// solution 2
+// create an empty string called 'reversed'
+// for each character in the provided string
+// take the character and add it to the start of 'reversed'
+// return the variable 'reversed'
+
+// function palindrome(str) {
+//     let reversed = '';
+//     for (let character of str ) {
+//     reversed = character + reversed;
+// }
+  
+//     return str === reversed;
+//   }
